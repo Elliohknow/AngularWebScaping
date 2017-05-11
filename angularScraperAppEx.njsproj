@@ -29,9 +29,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="models\Item.model.js" />
+    <Compile Include="public\js\app.js" />
+    <Compile Include="public\js\controllers.js" />
     <Compile Include="routes.js" />
     <Content Include="package.json" />
+    <Content Include="public\css\styles.css" />
+    <Content Include="public\images\spinner.gif" />
+    <Content Include="public\index.html" />
+    <Content Include="public\partials\main.html" />
     <Content Include="README.md" />
+    <Content Include="views\404.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\js\" />
+    <Folder Include="public\partials\" />
+    <Folder Include="views\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
